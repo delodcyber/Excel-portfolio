@@ -39,8 +39,7 @@ body {
   background: #ccc;
   margin-bottom: 1.25rem;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
-  mask-image: radial-gradient(circle, black 70%, transparent 100%);
-  -webkit-mask-image: radial-gradient(circle, black 70%, transparent 100%);
+  mask-image: radial-gradient(circle, #041a38 50%, transparent 100%);
 }
 
 .btn {
