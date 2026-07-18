@@ -1,0 +1,23 @@
+{
+  "name": "excel-portfolio",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delodcyber/Excel-portfolio.git"
+  },
+  "author": "John Adeloye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delodcyber/Excel-portfolio/issues"
+  },
+  "homepage": "https://github.com/delodcyber/Excel-portfolio#readme",
+  "description": "A simple Excel portfolio website",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
