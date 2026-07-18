@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
-  padding: 2rem 2rem 2.5rem;
+  padding: 1rem 2rem 0rem 2.5rem;
   background: #041a38;
   color: #fff;
   flex-wrap: wrap;
