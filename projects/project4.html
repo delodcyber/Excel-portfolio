@@ -1,10 +1,83 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><link rel="stylesheet" href="../styles.css"><title>Project 4</title></head><body>
-<!-- PROJECT HEADER --><h1>Project 4</h1>
-<!-- DASHBOARD IMAGE --><img src="../assets/project4.jpg" style="max-width:100%">
-<!-- BUSINESS PROBLEM --><h2>Problem</h2><p>Placeholder.</p>
-<!-- DATASET --><h2>Dataset</h2><p>Placeholder.</p>
-<!-- CLEANING --><h2>Data Cleaning</h2><p>Placeholder.</p>
-<!-- ANALYSIS --><h2>Analysis</h2><p>Placeholder.</p>
-<!-- INSIGHTS --><h2>Insights</h2><p>Placeholder.</p>
-<!-- LINKS --><p><a href="#">Launch Interactive Dashboard</a> | <a href="#">Download Workbook</a></p>
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <title>Project 4</title>
+  </head>
+  <body>
+    <!-- PROJECT HEADER -->
+    <header>
+      <h1>Project 4</h1>
+    </header>
+
+    <!-- DASHBOARD IMAGE -->
+    <figure>
+      <img src="../images/project4-dash.jpg" alt="Project 4 dashboard screenshot" style="max-width:100%" />
+    </figure>
+
+    <!-- BUSINESS PROBLEM -->
+    <section>
+        <h2>Monitor student academic performance through an interactive performance dashboard.</h2>
+        <p>
+            You are teaching a class with 20 students. The class has 20 projects, 4 tests, and a final exam. 
+            The semester has just ended and you want to be able to create a dashboard that allows you to 
+            see individual student performance.
+        </p>
+        <p><strong>Requirements</strong></p>
+        <p>
+            On Grade Sheet:
+            <ol>
+                <li>Use text functions to break apart the first and last name of each student into the provided columns.</li>
+                <li>Calculate each student's final score and the class average in column AD, all the way to the right.</li>
+                <li>Add a new calculation in column AE for the Final score percent. (Final score percent = total points earned / total points possible)</li>
+            </ol>
+        </p>
+        <p>
+            On Dashboard Sheet: The dashboard is set up for you and should allow you to spend most of your time filling 
+            in the correct formulas, number formatting, and—most importantly—creating charts!
+        </p>
+        <p>
+            Please ensure you solve for all of these items:
+            <ol>
+                <li>
+                    In the shaded section below the label student name, create a drop-down list that allows the user to pick a student from 
+                    the list on the Grades sheet. Many of the other functions used on the dashboard will reference this cell so consider using a named range.
+                </li>
+                <li>
+                    In the merged cells below the label Final Score use a lookup function to get the selected student's 
+                    final score from Grades sheet—formatted as a percent (for example: 89.7%).
+                </li>
+                <li>
+                    In the merged cells to the right of the label Student ID use a lookup function to get the selected student's Student ID from Grades sheet.
+                </li>
+                <li>
+                    For each of the major sections (Final Exam, Tests, First half projects, and Second half projects) you will need to:
+                    <ul>
+                        <li>Use functions to get the selected student's score and calculate the percent based on the points possible. This should be done in a single cell.</li>
+                        <li>Use functions to get the class average percent for the given assignment.</li>
+                        <li>
+                            Create a chart to clearly display the student's performance in relation to the class average. For the final exam, test, and project charts, the student's 
+                            scores must be shown using columns with the class average shown as a dot.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </section>
+
+    <!-- INSIGHTS -->
+    <section>
+      <h2>Insights</h2>
+      <p>No insights available.</p>
+    </section>
+
+    <!-- LINKS -->
+    <footer>
+      <p>
+        <a href="https://byupathwayworldwideprod-my.sharepoint.com/:x:/g/personal/aadeloye1_byupathway_edu/IQAjg388HLxcSKTGDdVsakL2AQTceuf_XHxe4Y85InCcI38?e=4LWECQ">Launch Interactive Dashboard for the Solution</a>
+      </p>
+    </footer>
+  </body>
+</html>

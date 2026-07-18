@@ -1,10 +1,78 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><link rel="stylesheet" href="../styles.css"><title>Project 2</title></head><body>
-<!-- PROJECT HEADER --><h1>Project 2</h1>
-<!-- DASHBOARD IMAGE --><img src="../assets/project2.jpg" style="max-width:100%">
-<!-- BUSINESS PROBLEM --><h2>Problem</h2><p>Placeholder.</p>
-<!-- DATASET --><h2>Dataset</h2><p>Placeholder.</p>
-<!-- CLEANING --><h2>Data Cleaning</h2><p>Placeholder.</p>
-<!-- ANALYSIS --><h2>Analysis</h2><p>Placeholder.</p>
-<!-- INSIGHTS --><h2>Insights</h2><p>Placeholder.</p>
-<!-- LINKS --><p><a href="#">Launch Interactive Dashboard</a> | <a href="#">Download Workbook</a></p>
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/project.css" />
+    <title>Project 2</title>
+  </head>
+  <body>
+    <!-- PROJECT HEADER -->
+    <header>
+      <h1>Project 2</h1>
+    </header>
+
+    <!-- DASHBOARD IMAGE -->
+    <figure>
+      <img src="../images/project2.jpg" alt="Project 2 dashboard screenshot" style="max-width:100%" />
+    </figure>
+
+    <!-- BUSINESS PROBLEM -->
+    <section>
+      <h2>Analyze customer booking data to support management reporting and decision-making</h2>
+      <p>
+        Using the data provided, you have been asked to add some additional calculations and create a summary for management. 
+        The data provided contains information about the customers who have booked travel through various websites.
+      </p>
+      <p>Data Requirements</p>
+        <ul>
+            <li>
+                Apply the filter feature to the whole range of data and use it to sort the customers alphabetically by their 
+                first name, A to Z. Leave the filter feature on (meaning you will still see little arrows on the first row of
+                each column).
+            </li>
+            <li>
+                Create three named ranges for the "Customer Name", "Phone", and "Total Money Spent" columns. 
+                The range should include rows 2 to 587. These named ranges will make the following calculations much easier!
+            </li>
+            <li>
+                Create a new column named "Overall Ranking". Use the RANK.EQ function to rank the customers in 
+                descending order, meaning 1 will have spent the most money.
+            </li>
+            <li>
+                Create a new column labeled "Number of nights". Calculate the number of nights the customer stayed in the 
+                hotel using the "Check‐in date" and "Check‐out date" columns. (Hint: "Check‐out date" minus "Check‐in date")
+            </li>
+        </ul>
+
+        <p>Lookup Sheet Requirement</p>
+        <ul>
+            <li>Use the Lookup Sheet, create a drop-down list of customer names by using data validation.</li>
+            <li>Use lookup functions to display the Room, Check-in dates, Check-out dates, Package, Ranking, and Number of Nights.</li>
+            <li>
+                Use spreadsheet functions to calculate these items. Use named ranges to reference the data and show the results on 
+                the Lookup sheet. Think about how to display these calculations in a way that is easy for others to read and understand quickly.
+            </li>
+            <li>Count the number of customers without a phone number.</li>
+            <li>What is total of the money spent across all customers?</li>
+        </ul>
+    </section>
+    <!-- INSIGHTS -->
+    <section>
+      <h2>Insights</h2>
+      <p>The workbook must look professional, meaning that you should take time to clean up each worksheet. Here are some ideas:</p>
+      <ul>
+        <li>Color each tab.</li>
+        <li>Format any currency columns with a dollar sign $.</li>
+        <li>Make the output and inputs cells stand out (i.e., bold OR color OR underline, etc.)</li>
+      </ul>
+    </section>
+
+    <!-- LINKS -->
+    <footer>
+      <p>
+        <a href="https://byupathwayworldwideprod-my.sharepoint.com/:x:/g/personal/aadeloye1_byupathway_edu/IQCPTD3IsFlISImAuvA5n2pqAd9lsj-Tb83DVwSRYDwMA2Y?e=Nt4hHx">Launch Interactive Dashboard for the Solution</a>
+      </p>
+    </footer>
+  </body>
+</html>
